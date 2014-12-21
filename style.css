@@ -144,5 +144,5 @@ body {
 .color_deviantart:hover, .color_deviantart:focus { background-color: #05cc47; }
 .snapchat { background-image: url(_img/snapchat.png); }
 .color_snapchat:hover, .color_snapchat:focus { background-color: #fffc00; }
-.behance { background-image: url(https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/_img/behance.png); }
+.behance { background-image: url(master/_img/behance.png); }
 .color_behance:hover, .color_behance:focus { background-color: #1769ff; }
