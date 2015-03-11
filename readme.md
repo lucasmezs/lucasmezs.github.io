@@ -2,7 +2,7 @@
 
 ## what is this?
 
-This repository is named as "lucasmauess.gihub.io" because it follows a naming scheme, so that all its content, can be interpreted as a website (or rather, in a "User Page") in accordance with documentation of the *[GitHub Pages](http://pages.github.com/)*.
+This repository is named as "lucasmauess.gihub.io" because it follows a naming scheme, so that all its content, can be interpreted as a website (or rather, in a "User Page") in accordance with documentation of the GitHub Pages.
 
 ## what is the purpose of this repository?
 
@@ -16,6 +16,13 @@ The objective of this repository is to gather information about me in a single w
 
 ## how to create my page on GitHub?
 
-Very simple. All information to you need, can be found in these links: *[GitHub Pages Basics](http://help.github.com/categories/github-pages-basics)* and *[GitHub Pages Features](http://help.github.com/categories/github-pages-features)*. For more information visit: *[GitHub Help](http://help.github.com/)*.
+Very simple. All information to you need, can be found in these links:
 
-– Lucas Mauess
+* [GitHub Pages](http://pages.github.com/)
+* [GitHub Pages Basics](http://help.github.com/categories/github-pages-basics)
+* [GitHub Pages Features](http://help.github.com/categories/github-pages-features)
+* [GitHub Help](http://help.github.com/)
+
+## credits
+
+Code and Design by Lucas Mauess. Hosted directly from my GitHub repository.
