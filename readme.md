@@ -16,7 +16,7 @@ See: [lucasmauess.github.io](http://lucasmauess.github.io/)
  --- | --- | --- | --- | --- | --- | --- |		 --- | --- | --- | --- | --- | --- | --- |
  Chrome | IE | Firefox | Safari | Opera | UC | Spartan |
 
-## how to create a GitHub Page?
+## how to create my page on GitHub?
 
 Very simple. All information to you need, can be found in these links: *[GitHub Pages Basics](http://help.github.com/categories/github-pages-basics)* and *[GitHub Pages Features](http://help.github.com/categories/github-pages-features)*. For more information visit: *[GitHub Help](http://help.github.com/)*.
 
