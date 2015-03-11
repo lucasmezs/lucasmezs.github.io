@@ -1,10 +1,8 @@
 # [lucasmauess.github.io](http://lucasmauess.github.io/)
 
-## what is this?
+A personal website hosted directly from my GitHub repository
 
-This repository is named as "lucasmauess.gihub.io" because it follows a naming scheme, so that all its content, can be interpreted as a website (or rather, in a "User Page") in accordance with documentation of the GitHub Pages.
-
-## what is the purpose of this repository?
+## purpose of this project
 
 The objective of this repository is to gather information about me in a single web page, such as links to my profiles on social networks, information to contact, a blog to share ideas about programming and development (coming soon) and mainly promote my projects and my contributions in the open source community. Do not need to explain why I chose GitHub for it =D
 
@@ -14,9 +12,13 @@ The objective of this repository is to gather information about me in a single w
  --- | --- | --- | --- | --- | --- | --- |		 --- | --- | --- | --- | --- | --- | --- |
  Chrome | IE | Firefox | Safari | Opera | UC | Spartan |
 
-## how to create my page on GitHub?
+## important note
 
-Very simple. All information to you need, can be found in these links:
+This repository is named as ** *lucasmauess.gihub.io* ** because it follows a naming scheme, so that all its content can be interpreted as a website (or rather, in a "User Page") in accordance with documentation of the GitHub Pages.
+
+## how to create pages on GitHub?
+
+Very simple! All information to you need, can be found in these links:
 
 * [GitHub Pages](http://pages.github.com/)
 * [GitHub Pages Basics](http://help.github.com/categories/github-pages-basics)
@@ -25,4 +27,4 @@ Very simple. All information to you need, can be found in these links:
 
 ## credits
 
-Code and Design by Lucas Mauess. Hosted directly from my GitHub repository.
+Code and Design by Lucas Mauess.
