@@ -12,9 +12,8 @@ See: [lucasmauess.github.io](http://lucasmauess.github.io/)
 
 ## Browser Support
 
-![IE](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_internet_explorer.png) | ![Chrome](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_chrome.png) | ![Firefox](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_firefox.png) | ![Opera](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_opera.png) | ![Safari](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_safari.png)
- --- | --- | --- | --- | --- |		 --- | --- | --- | --- | --- |
- IE 8+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |		 IE 8+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+![IE](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Internet_Explorer.png) | ![Chrome](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Chrome.png) | ![Firefox](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Firefox.png) | ![Opera](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Opera.png) | ![Safari](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Safari.png)
+ --- | --- | --- | --- | --- |		 IE 8+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 ## how to create a page like this?
 
