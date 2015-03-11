@@ -370,6 +370,11 @@ a.box {
 }
 a.box:hover { 
   background-color: #444;
+  -webkit-transform:scale(0.9) translate(0, 0);
+  -moz-transform:scale(0.9) translate(0, 0);
+  -ms-transform:scale(0.9) translate(0, 0); 
+  -o-transform:scale(0.9) translate(0, 0);
+  transform:scale(0.9) translate(0, 0);
 }
 a.box:focus {
   background-color: #444;
