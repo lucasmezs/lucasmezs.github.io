@@ -12,9 +12,9 @@ See: [lucasmauess.github.io](http://lucasmauess.github.io/)
 
 ## Browser Support
 
-![Internet Explorer](img/_Internet_Explorer.png?raw=true) | ![Chrome](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Chrome.png) | ![Firefox](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Firefox.png) | ![Opera](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Opera.png) | ![Safari](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Safari.png) | ![UC Browser](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_UC_Browser.png) | ![Safari](https://raw.githubusercontent.com/lucasmauess/lucasmauess.github.io/master/img/_Spartan.png)
- --- | --- | --- | --- | --- |
- Latest | Latest | Latest | Latest | Latest |
+![Chrome](img/_Chrome.png?raw=true) | ![Internet Explorer](img/_Internet_Explorer.png?raw=true) | ![Firefox](img/_Firefox.png?raw=true) | ![Opera](img/_Opera.png?raw=true) | ![Safari](img/_Safari.png?raw=true) | ![UC Browser](img/_UC_Browser.png?raw=true) | ![Spartan](img/_Spartan.png?raw=true)
+ --- | --- | --- | --- | --- | --- | --- |		 --- | --- | --- | --- | --- | --- | --- |
+ Latest | Latest | Latest | Latest | Latest | Latest | Latest |
 
 ## How to create a GitHub Page?
 
