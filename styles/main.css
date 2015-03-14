@@ -402,6 +402,7 @@ input#control-nav {
   left: -9999px;
   opacity: 0;
 }
+
 .active-page {
   color: #fff;
   font-family: Roboto-Regular;
@@ -414,11 +415,14 @@ BACKGROUNDS
 .bg-gray {
 	background-color: #eaeaea;
 }
+.bg-gray-2 {
+  background-color: #999999;
+}
 .bg-white {
 	background-color: #ffffff;
 }
 .bg-img-boll {
-  background-image: url('../img/boll.jpg');
+  background-image: url('../images/nyc.jpg');
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -464,16 +468,18 @@ a.box {
 	text-decoration: none;
 	color: #fff;
 	outline: none;
-  background-color: rgba(68, 68, 68, 0.8);
+  background-color: rgba(160, 160, 160, 0.5);
   border: 1px solid rgba(68, 68, 68, 0.01);
 }
 a.box:hover { 
   background-color: #444;
+  /*
   -webkit-transform:scale(0.9) translate(0, 0);
   -moz-transform:scale(0.9) translate(0, 0);
   -ms-transform:scale(0.9) translate(0, 0); 
   -o-transform:scale(0.9) translate(0, 0);
   transform:scale(0.9) translate(0, 0);
+  */
 }
 a.box:focus {
   background-color: #444;
