@@ -682,9 +682,9 @@ a.button {
   height: auto;
   width: auto;
   margin: 0 1.6%; 
-  padding: 10px 10px 9px 10px;
+  padding: 9px 13px 8px 12px;
   background-color: #fff;
-  border-radius: 50px;
+  border-radius: 30px;
   border: 1px solid #fff;
 }
 a.button:hover, a.button:focus {
@@ -700,7 +700,7 @@ a.button h6 {
 }
 a.button figure {
   float: left;
-  margin-right: 10px;
+  margin-right: 9px;
   width: 18px;
   height: 18px;
   background-size: 18px;
