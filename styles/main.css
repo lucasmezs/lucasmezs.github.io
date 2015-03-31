@@ -74,6 +74,7 @@ MEDIA QUERIES
   }
   a.box-post { width: 17.2%; }
   a.box-pro { width: 17.2%; }
+  .content-box-home { padding: 60px; }
 }
 
 @media all and (max-width: 1999px) {
@@ -121,6 +122,7 @@ MEDIA QUERIES
     height: 132px; 
     width: 132px; 
   }
+  .content-box-home { padding: 40px; }
 }
 
 @media all and (max-width: 900px) {
@@ -153,6 +155,7 @@ MEDIA QUERIES
   #photo-logo { 
     display: none; 
   }
+  .content-box-home { padding: 15px 0; }
 
   /* 
   NAV
@@ -489,7 +492,6 @@ BACKGROUNDS
   margin: 20px auto;
 }
 .content-box-home {
-  padding: 30px;
   margin: 0 auto;
 }
 
