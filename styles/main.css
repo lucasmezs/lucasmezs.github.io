@@ -64,8 +64,10 @@
   }
   a.box {
     background-size: 80px;
+    background-position: 50% 42%;
     height:160px;
     width: 160px;
+    margin: 4px;
   }
   a.box-post { width: 17.2%; }
   .active-page-title { font-size: 86px; }
@@ -91,8 +93,8 @@
   header h1 a {
     font-size: 26px;
     float: left;
-    padding: 15px 15px 5px 15px;
-    font-family: 'Roboto-Regular', sans-serif;
+    padding: 15px 20px 5px 20px;
+    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
     text-decoration: none;
     color: #aaa;
@@ -105,7 +107,8 @@
     background-color: #3C3C3C;
   }
   header h1 a span {
-    font-weight: 300;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
     font-size: 44px;
   }
   section p {
@@ -117,8 +120,10 @@
   }
   a.box  {
     background-size: 60px;
+    background-position: 50% 42%;
     height: 132px;
     width: 132px;
+    margin: 4px;
   }
   .container-box { padding: 20px 40px; }
   .active-page-title { font-size: 54px; }
@@ -154,13 +159,15 @@
     letter-spacing: 2px;
   }
   section p {
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px 12%;
   }
   a.box {
-    background-size: 42px;
-    height: 106px;
-    width: 106px;
+    background-size: 40px;
+    background-position: 50% 38%;
+    height: 86px;
+    width: 86px;
+    margin: 2px;
   }
   #photo-logo {
     display: none;
@@ -251,16 +258,11 @@
 }
 @media all and (max-width: 580px) {
 
-  a .box { width:50%; }
   a.box-post { width: 97.4%; }
 
   header h1 a { font-size: 24px; padding: 15px 10px 12px 0px; }
   header h1 a span { font-size: 24px; padding: 15px 0px 12px 20px; }
 
-  section p {
-    font-size: 18px;
-    padding: 10px 8%;
-  }
 }
 @media print {
     nav {
@@ -535,12 +537,10 @@ a.box {
 	display: inline-block;
 	float: none;
 	padding: 2px;
-	margin: 4px;
   text-decoration: none;
   color: #999;
   background-color: #fff;
   background-repeat: no-repeat;
-  background-position: 50% 42%;
   transition: none;
 }
 a.box:hover, a.box:focus {
@@ -555,11 +555,11 @@ a.box:hover, a.box:focus {
   font-size: 14px;
 	text-align: left;
 	font-family: 'Roboto-Regular', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
   width: 80%;
-	height: 26px;
-	padding: 0 10px;
-  left: 2px;
+	height: auto;
+	padding: 5% 10%;
+  left: 0;
 	bottom: 0;
 	background-color: transparent;
 }

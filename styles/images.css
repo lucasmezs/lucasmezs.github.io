@@ -8,11 +8,6 @@
  	margin: 44px 36px 32px 46px;
   	border: 2px solid #aaa;
   	border-radius: 100px;
-  	-webkit-transition: all 250ms ease-in-out;
-  	-moz-transition: all 250ms ease-in-out;
-  	-ms-transition: all 250ms ease-in-out;
-  	-o-transition: all 250ms ease-in-out;
-  	transition: all 250ms ease-in-out;
 }
 #photo-logo:hover {
 	border: 2px solid #fff;
