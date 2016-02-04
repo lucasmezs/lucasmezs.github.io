@@ -1,77 +1,192 @@
 <!DOCTYPE html>
-<!-- Code and Design by Lucas Mauess -->
 <html lang="en">
 
-	<head>
-		<!-- Compatibility -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- SEO -->
-		<title>About — Lucas Mauess</title>
-		<meta name="description" content="All about Lucas Mauess.">
-		<meta name="keywords" content="lucas, mauess, maues">
-	    <meta name="author" content="Lucas Mauess">
-	    <!-- CSS -->
-	    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-	    <link rel="stylesheet" href="styles/images.css" type="text/css"/>
-	    <!-- Favicon -->
-	    <link rel="icon" href="images/favicon.png">
-	    <!-- Add to Homescreen for Chrome on Android -->
-	    <meta name="mobile-web-app-capable" content="yes">
-	    <link rel="icon" sizes="192x192" href="images/chrome-touch-icon.png">
-	    <!-- Add to Homescreen for Safari on iOS -->
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	    <meta name="apple-mobile-web-app-title" content="Lucas Mauess">
-	    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-	    <!-- Add to Start screen for IE on Windows -->
-	    <meta name="msapplication-TileImage" content="images/ms-touch-icon.png"/>
-		<meta name="msapplication-TileColor" content="#FFFFFF"/>
-	    <!-- Google+ -->
-	    <link rel="publisher" href="https://plus.google.com/u/0/+LucasMauess">
-	</head>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>About – Lucas Mauess</title>
+	<meta name="description" content="Know more about Lucas Mauess. Brazilian freelancer web developer / designer, co-founder of INBLUG, student of computer science and advocate of open source.">
+	<meta name="keywords" content="lucas mauess, lucas maues, about">
+    <meta name="author" content="Lucas Mauess">
+
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
     
-	<body>
+<body>
+	
+        <header role="banner">
 
-	    <header>
-	    
-	        <figure id="photo-logo"></figure>
-	        <h1><a href="index.html"><span>LUCAS</span> MAUESS</a></h1>
+        <a href="index.html">
+            <figure></figure>
+            <h1>Lucas <span>Mauess</span></h1>
+        </a>
 
-	        <input type="checkbox" id="control-nav"/>
-	        <label for="control-nav" class="control-nav"></label>
-	        <label for="control-nav" class="control-nav-close"></label>
+        <button id="menu-button"></button>
+        <div class="layer-menu"></div>
 
-	        <nav>
-	            <ul class="nav-list">
-	            	<li><a href="index.html" id="hide-1">Home</a></li>
-	            	<li><a href="blog.html">Blog</a></li>
-	                <li><a href="projects.html">Projetcs</a></li>
-	             	<li><a href="about.html" class="active-page">About</a></li>
-	                <li><a href="contact.html">Contact</a></li>
-	            </ul>
-	            <a href="license.html" id="copyright">LICENSE</a>
-	        </nav>
+        <nav role="navigation">
+            <button id="close-button"></button>
+            <ul>
+                <li><a href="index.html" accesskey="h" class="hide">Home</a></li>
+                <li><a href="blog.html" accesskey="b">Blog</a></li>
+                <li><a href="projects.html" accesskey="p">Projects</a></li>
+                <li><a href="services.html" accesskey="s">Services</a></li>
+                <li><a href="work.html" accesskey="w">Work</a></li>
+                <li><a href="contact.html" accesskey="c">Contact</a></li>
+                <li><a href="about.html" accesskey="a" class="active">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
 
-	    </header>
+    <section class="full-screen page-bg img-about grayscale">
 
-	    <section id="about" class="bg-white">
+        <div class="full-screen-container page">
+	    	<h2>About</h2>
+            <p>A summary about me, my skills and experiences.</p>
+            <a href="#down" class="down"></a>
+        </div>
 
-	    	<h2 class="active-page-title">About</h2>
-	    
-	    </section>
 
-	    <section class="bg-gray">
+	</section>
 
-			<div class="spinner"></div>
+	<section id="down">
 
-	    </section>
+        <article>
 
-	    <footer class="bg-gray">
+            <h3>About Me</h3>
 
-	    </footer>
+            <p>My name is Lucas Mauess, I am a Web Developer and UX/UI Designer. I work with development of websites and applications for small and medium businesses, personal customers, and as well, as partner or consultant to agencies and starter projects.
 
-	</body>
+            <p>I specialize in front-end development, and I mostly focus on simplicity, ergonomics, responsive design, cross-browser compatibility and SEO-friendly code. I am currently working as a freelancer</p>
+
+
+            </p>
+
+
+            <p>I'm from Brazil and I live in Belém — the capital and largest city of the state of Pará, in the country's north — on middle of Amazon, the largest rainforest of the world. I love living here (is not a jungle), the same way as I love traveling and discover new challenging experiences \o/</p>
+
+            <p>I love the worlds of Web/Mobile Development and UX/UI Design, especially when I work together with a creative team. I combine my knowledge, my skills and my experience to deliver the best project possible, always, with an eye for innovation.</p>
+
+            <p>I am a enthusiast for open source technologies, mainly those that make the free and open web. And currently I am studying at Federal University of Pará (UFPA) to undergraduate in Computer Science.</p>
+
+            <p>I'm also co-founded the <a href="http://inblug.com/" target="_blank">INBLUG</a>, an startup specializing in the design and development of interactive projects of websites and mobile applications. But I created the INBLUG, not only thinking in offer these services, but also in possibility to develop the projects of everyone, who do not know, how to transform your ideas into practice. Just, the INBLUG mission is more than design and develop, but convert a great idea into reality :)</p>
+
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML
+                    <ul>
+                        <li>Jade - Haml - Erb</li>
+                    </ul>
+                </li>
+                <li>CSS
+                    <ul>
+                        <li>Sass - Less - Stylus</li>
+                    </ul>
+                </li>
+                <li>JavaScript
+                    <ul>
+                        <li>jQuery - AngularJS - ReactJS - Backbone</li>
+                        <li>Grunt - Gulp - Yeoman</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </li>
+                <li>Front-End Frameworks
+                    <ul>
+                        <li>Bootstrap - Foundation</li>
+                    </ul> 
+                </li>
+                <li>SVG</li>
+                <li>PHP</li>
+                <li>Ruby (Ruby on Rails)</li>
+                <li>Python</li>
+                <li>Git</li>
+                <li>CMS
+                    <ul>
+                        <li>Joomla! - WordPress</li>
+                    </ul>
+                </li>
+                <li>Databases
+                    <ul>
+                        <li>MySQL - MongoDB</li>
+                    </ul> 
+                </li>
+                <li>UX / UI Design</li>
+                <li>Interactive Prototyping</li>
+                <li>Responsive Design (Mobile First)</li>
+                <li>Search Engine Optimization (SEO)</li>
+                <li>Accessibility (WCAG)</li>
+                <li>Performance</li>
+                <li>Agile Development Methodologies
+                    <ul>
+                        <li>Scrum - Kanban</li>
+                        <li>TDD - Continuous Integration</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </article>
+
+    </section>
+
+    <section class="chapter bg-gradient">
+
+        <h3>Major Skills</h3>
+        
+        <div class="container-box">
+
+            <div class="chart" data-percent="90">HTML</div>
+            <div class="chart" data-percent="80">CSS</div>
+            <div class="chart" data-percent="60">JavaScript</div>
+            <div class="chart" data-percent="85">SVG</div>
+            <div class="chart" data-percent="50">PHP</div>
+            <div class="chart" data-percent="65">SEO</div>
+            <div class="chart" data-percent="55">UX/UI</div>
+            <div class="chart" data-percent="70">Adobe CC</div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <article>
+            
+            <h3>Resume</h3>
+
+            <p>If you want to know even more about me, just look at my <a href="resume.html">Resume</a>.</p>
+
+            <h3>Contact Me</h3>
+
+            <p>Feel free to ask any questions or if you want to work together, go to <a href="contact.html">Contact</a> and choose your favorite way to contact me.</p>
+
+        </article>
+
+    </section>
+
+
+    <footer>
+        <p>Copyright &copy; 2016 Lucas Mauess. All rights reserved.</p>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/skills.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60745752-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
 
 </html>

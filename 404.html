@@ -1,73 +1,76 @@
 <!DOCTYPE html>
-<!-- Code and Design by Lucas Mauess -->
 <html lang="en">
-    <head>
-        <!-- Compatibility -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Optimization -->
-        <title>Page Not Found — Lucas Mauess</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-        <link rel="stylesheet" href="styles/images.css" type="text/css"/>
-        <!-- Favicon -->
-        <link rel="icon" href="images/favicon.png">
 
-        <style>
-            h5 {
-                color: #ddd;
-                font: normal 300 9em 'Roboto-Light', sans-serif;
-            }
-            h2 {
-                color: #888;
-                font-size: 2em;
-                font-family: 'Roboto-Regular', sans-serif;
-                font-weight: 400;
-                padding: 0px;
-            }
-            h3 {
-                margin: 30px auto;
-                max-width: 280px;
-                color: #bbb;
-                font-size: 20px;
-                text-align: center;
-            }
-            section {
-                margin-top: 50px;
-            }
-        </style>
-    </head>
-    <body>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <header>
+    <title>Page Not Found – Lucas Mauess</title>
+
+    <meta http-equiv="refresh" content="24; url=index.html"/>
+
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+
+    <header role="banner">
+
+        <a href="index.html">
+            <figure></figure>
+            <h1>Lucas <span>Mauess</span></h1>
+        </a>
+
+        <button id="menu-button"></button>
+        <div class="layer-menu"></div>
+
+        <nav role="navigation">
+            <button id="close-button"></button>
+            <ul>
+                <li><a href="index.html" accesskey="h" class="hide">Home</a></li>
+                <li><a href="blog.html" accesskey="b">Blog</a></li>
+                <li><a href="projects.html" accesskey="p">Projects</a></li>
+                <li><a href="services.html" accesskey="s">Services</a></li>
+                <li><a href="work.html" accesskey="w">Work</a></li>
+                <li><a href="contact.html" accesskey="c">Contact</a></li>
+                <li><a href="about.html" accesskey="a">About</a></li>
+            </ul>
+        </nav>
         
-            <figure id="photo-logo"></figure>
-            <h1><a href="index.html"><span>LUCAS</span> MAUESS</a></h1>
+    </header>
 
-            <input type="checkbox" id="control-nav"/>
-            <label for="control-nav" class="control-nav"></label>
-            <label for="control-nav" class="control-nav-close"></label>
+    <section class="full-screen page-bg img-error grayscale">
 
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="index.html" id="hide-1">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="projects.html">Projetcs</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <a href="license.html" id="copyright">LICENSE</a>
-            </nav>
+        <div class="full-screen-container page">
 
-        </header>
+            <p id="counter"></p>
 
-            <section class="bg-gray">
-                <h2>Error</h2>
-                <h5>404</h5>
-                <h2>Page Not Found</h2>
-                <h3>Sorry. The page you’re requested can’t be found (because does not exist or is no longer available).</h3>
-            </section>
+            <h2>Error 404</h2>
 
-    </body>
+            <p>Sorry, the page that you requested cannot be found, because does not exist or is no longer available.</p>
+
+            <a href="index.html" class="button">Back to Home</a>
+
+        </div>
+
+    </section>
+    
+<script src="scripts/menu.js"></script>
+<script src="scripts/counter.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60745752-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+
 </html>

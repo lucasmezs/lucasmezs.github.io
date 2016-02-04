@@ -1,154 +1,210 @@
 <!DOCTYPE html>
-<!-- Code and Design by Lucas Mauess -->
 <html lang="en">
 
-	<head>
-		<!-- Compatibility -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- SEO -->
-		<title>Blog — Lucas Mauess</title>
-		<meta name="description" content="Sharing ideias about HTML, CSS, JavaScript, PHP and other front-end stuff.">
-		<meta name="keywords" content="lucas, mauess, maues, blog">
-	    <meta name="author" content="Lucas Mauess">
-	    <!-- CSS -->
-	    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-	    <link rel="stylesheet" href="styles/images.css" type="text/css"/>
-	    <!-- Favicon -->
-	    <link rel="icon" href="images/favicon.png">
-	    <!-- Add to Homescreen for Chrome on Android -->
-	    <meta name="mobile-web-app-capable" content="yes">
-	    <link rel="icon" sizes="192x192" href="images/chrome-touch-icon.png">
-	    <!-- Add to Homescreen for Safari on iOS -->
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	    <meta name="apple-mobile-web-app-title" content="Lucas Mauess">
-	    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-	    <!-- Add to Start screen for IE on Windows -->
-	    <meta name="msapplication-TileImage" content="images/ms-touch-icon.png"/>
-		<meta name="msapplication-TileColor" content="#FFFFFF"/>
-	    <!-- Google+ -->
-	    <link rel="publisher" href="https://plus.google.com/u/0/+LucasMauess">
-	</head>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Blog – Lucas Mauess</title>
+	<meta name="description" content="Sharing ideas about web and mobile development, design, programming and technologies trends.">
+	<meta name="keywords" content="lucas, mauess, maues, blog, web, design, mobile, development, programming">
+    <meta name="author" content="Lucas Mauess">
+
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
     
-	<body>
+<body>
 
-	    <header>
-	    
-	        <figure id="photo-logo"></figure>
-	        <h1><a href="index.html"><span>LUCAS</span> MAUESS</a></h1>
 
-	        <input type="checkbox" id="control-nav"/>
-	        <label for="control-nav" class="control-nav"></label>
-	        <label for="control-nav" class="control-nav-close"></label>
+    <header role="banner">
 
-	        <nav>
-	            <ul class="nav-list">
-	            	<li><a href="index.html" id="hide-1">Home</a></li>
-	                <li><a href="blog.html" class="active-page">Blog</a></li>
-	                <li><a href="projects.html">Projetcs</a></li>
-	                <li><a href="about.html">About</a></li>
-	                <li><a href="contact.html">Contact</a></li>
-	            </ul>
-				<a href="license.html" id="copyright">LICENSE</a>
-	        </nav>
+        <a href="index.html">
+        	<figure></figure>
+        	<h1>Lucas <span>Mauess</span></h1>
+        </a>
 
-	    </header>
+		<button id="menu-button"></button>
+		<div class="layer-menu"></div>
 
-	    <section>
-	    	<h2 class="active-page-title">Blog</h2>
-	    	<p class="page-description">Sharing ideias about HTML, CSS, JavaScript, PHP and other web stuff.</p>
-	    </section>
+		<nav role="navigation">
+			<button id="close-button"></button>
+			<ul>
+			    <li><a href="index.html" accesskey="h" class="hide">Home</a></li>
+ 	            <li><a href="blog.html" accesskey="b" class="active">Blog</a></li>
+ 	            <li><a href="projects.html" accesskey="p">Projects</a></li>
+ 	            <li><a href="services.html" accesskey="s">Services</a></li>
+                <li><a href="work.html" accesskey="w">Work</a></li>
+                <li><a href="contact.html" accesskey="c">Contact</a></li>
+                <li><a href="about.html" accesskey="a">About</a></li>
+			</ul>
+		</nav>
+        
+    </header>
 
-	    <div class="toolbar">
-	    	<a href="#" class="button" title="Search for articles"><figure class="button-icon-search"></figure>Search</a>
-	    	<a href="#" class="button" title="Share this page"><figure class="button-icon-share"></figure>Share</a>
-	    	<a href="#" class="button" title="View all categories"><figure class="button-icon-tags"></figure>Tags</a>
-	    	<a href="#" class="button" title="Subscribe the feed"><figure class="button-icon-feed"></figure>Feed</a>
+
+    <section class="full-screen page-bg img-blog grayscale">
+
+	    <div class="full-screen-container page">
+
+	    	<h2>Blog</h2>
+	    	
+	    	<p>Sharing ideas about Web and Mobile Development, UX and UI Design, trends and my experiences.</p>
+
+	    	<div class="page-bar">
+
+		    	<a href="#" title="Search for articles">
+		    		<figure class="icon-search"></figure>
+		    		<span>Search</span> 
+		    	</a>
+
+		    	<a href="#" title="Share this page">
+			    	<figure class="icon-share"></figure>
+			    	<span>Share</span>
+		    	</a>
+
+		    	<a href="#" title="View all categories">
+			    	<figure class="icon-tags"></figure>
+			    	<span>Tags</span>
+		    	</a>
+
+		    	<a href="feed.xml" title="Subscribe the RSS feed">
+			    	<figure class="icon-feed"></figure>
+			    	<span>Feed</span>
+		    	</a>
+
+		    </div>
+
 	    </div>
 
-	    <section class="bg-gray">
+    </section>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+<!--         <section>
+    	
+    	<a aria-label="Compartilhe no Twitter" href="https://twitter.com/intent/tweet?url=seusite/&amp;text=seutexto&amp;via=seutwitter" onclick="window.open(this.href, 'twitter-share', 'width=550,height=260');return false;" title="Compartilhe no Twitter">Twitter</a>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    	<a aria-label="Compartilhe no Facebook" href="https://www.facebook.com/sharer/sharer.php?u=linkdoseusite" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Compartilhe no Facebook"> Facebook</a>
 
-			 <a href="#" class="box-post">
-			 	<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    	<a aria-label="Compartilhe no Google Plus" href="https://plus.google.com/share?url=seusite" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Compartilhe no Google+">Google+</a>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    </section> -->
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    <section class="bg-gray">
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    	<a href="#" class="box-post">
+			<figure style="background-image: url('http://dxartist.com/wp-content/uploads/2015/01/jekyll-logo.png');"></figure>
+			<span>Ruby</span>
+			<h2>How to install Jekyll on Windows</h2>
+			<p>A simple guide to install all things necessary to run Jekyll on Windows with no problems.</p>
+		</a>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+		<a href="#" class="box-post">
+			<figure style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzr9rROMKVyzpyWQjTUGNij5gOf_M4nHvUaSGSrSOE6rw4jXu');"></figure>
+			<span>Creativity</span>
+			<h2>How to LEGO become a powerfull tool for develop creativity</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+    	<a href="#" class="box-post">
+			<figure style="background-image: url('http://tableless.com.br/wp-content/uploads/2012/10/flexbox.jpg');"></figure>
+			<span>CSS</span>
+			<h2>What to expect from 4 version of CSS?</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-			<a href="#" class="box-post">
-				<h3>CATEGORY</h3>
-				<div class="bg gray"><div class="img"></div></div>
-				<h3>MM/DD/YYYY</h3>
-				<h2>lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</h3>
-			</a>
+		<a href="#" class="box-post">
+			<figure style="background-image: url("");"></figure>
+			<span>HTML</span>
+			<h2>The best sites to learn HTML5 for free</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
+		<a href="#" class="box-post">
+			<figure style="background-image: url('http://ichef.bbci.co.uk/wwfeatures/384_216/images/live/p0/2f/38/p02f38h0.jpg');"></figure>
+			<span>Fonts</span>
+			<h2>The best sites to find and download free Fonts</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-	    </section>
+		<a href="#" class="box-post">
+			<figure style="background-image: url('http://ichef.bbci.co.uk/wwfeatures/384_216/images/live/p0/2m/dy/p02mdyb8.jpg');"></figure>
+			<span>Web Development</span>
+			<h2>Progressive Web Apps: the future of Web Development?</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-	    <footer>
+		<a href="#" class="box-post">
+			<figure style="background-image: url('http://ichef.bbci.co.uk/wwfeatures/384_216/images/live/p0/2q/y2/p02qy274.jpg');"></figure>
+			<span>SVG</span>
+			<h2>Animating SVG with CSS</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-	    </footer>
+		<a href="#" class="box-post">
+			<figure style="background-image: url('http://ichef.bbci.co.uk/wwfeatures/384_216/images/live/p0/2r/7z/p02r7z98.jpg');"></figure>
+			<span>JavaScript</span>
+			<h2>The best ways to learn JavaScript online</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
 
-	</body>
+		<a href="#" class="box-post">
+			<figure style="background-image: url('http://ichef.bbci.co.uk/wwfeatures/384_216/images/live/p0/2y/4d/p02y4d6r.jpg');"></figure>
+			<span>Web Development</span>
+			<h2>Google Web Fundamentals – the best practices for modern web development</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
+
+		<a href="#" class="box-post">
+			<figure style="background-image: url('');"></figure>
+			<span>Web Development</span>
+			<h2>Accessibility x Usability</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
+
+		<a href="#" class="box-post">
+			<figure style="background-image: url('');"></figure>
+			<span>SEO</span>
+			<h2>How to improve SEO?</h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
+
+		<a href="#" class="box-post">
+			<figure style="background-image: url('');"></figure>
+			<span>APIs</span>
+			<h2>How to implement Push API, the new W3C standard </h2>
+			<p>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam necessitatibus.</p>
+		</a>
+
+		
+
+		
+
+	</section>
+
+	<section>
+		
+		<a href="#" class="button">Load More</a>
+
+    </section>
+
+    <footer>
+    	<p>Copyright &copy; 2016 Lucas Mauess. All rights reserved.</p>
+    </footer>
+
+<script src="scripts/menu.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60745752-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
 
 </html>

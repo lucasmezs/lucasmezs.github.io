@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- Code and Design by Lucas Mauess -->
+<html lang="en">
+    <head>
+        <!-- Compatibility -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO -->
+        <title>Accessibility – Lucas Mauess</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/images.css" type="text/css"/>
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.png">
+
+        <style>
+            h3 {
+                color: #777;
+                padding: 0 10%;
+                font: 700 24px 'Roboto-Bold', sans-serif;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            h5 {
+                font: 200 16px 'Roboto-Light', sans-serif;
+                margin: 5px auto;
+                padding: 10px 10%;
+                max-width: 450px;
+                color: #bbb;
+                text-align: center;
+                text-transform: uppercase;
+                border-top: 1px solid #eee;
+            }
+            h4 {
+                max-width: 650px;
+                margin: 5px auto;
+                padding: 10px 6% 0 6%;
+                font: 400 14px 'Roboto-Regular', sans-serif;
+                text-align: justify;
+                line-height: 22px;
+                color: #888;
+            }
+            .keyboard {
+                display: inline-block;
+                width: auto;
+                height: auto;
+                background-color: #eee;
+                font: 400 14px 'Roboto-Regular', sans-serif;
+                color: #888;
+                margin: 0 1px;
+                padding: 6px 12px;
+                border-radius: 5px;
+                border: 1px solid #eee;
+            }
+            .space {
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            .box-shortcut {
+                display: inline-block;
+                float: none;
+                width: 500px;
+                height: auto;
+                background-color: #fff;
+                margin: 10px;
+                padding: 18px 0;
+            }
+            .box-shortcut h3 {
+                font: 500 28px 'Roboto-Medium', sans-serif;
+                padding: 10px 0 10px 0;
+            }
+            .box-shortcut h5 {
+                font: 200 14px 'Roboto-Light', sans-serif;
+                margin: 0 auto;
+                padding: 10px 8%;
+                border: none;
+            }
+            .box-shortcut h4 {
+                width: auto;
+                text-align: center;
+            }
+        </style>
+
+    </head>
+<body>
+
+    <header>
+        
+        <a href="index.html">
+            <figure></figure>
+            <h1>Lucas <span>Mauess</span></h1>
+        </a>
+
+        <input type="checkbox" id="control-nav"/>
+        <label for="control-nav" class="control-nav"></label>
+        <label for="control-nav" class="control-nav-close"></label>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html" id="hide-1">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projetcs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+       
+    <section class="bg-gradient">
+        <h2 class="active-page-title">Accessibility</h2>
+    </section>
+
+    <section class="space bg-gray">
+
+        <h3>Keyboard shortcuts</h3>
+        <h5>Use keyboard shortcuts to navigate</h5>
+
+            <h4><div class="keyboard">H</div> = Home</h4>
+            <h4><div class="keyboard">B</div> = Blog</h4>
+            <h4><div class="keyboard">S</div> = Services</h4>
+            <h4><div class="keyboard">P</div> = Projects</h4>
+            <h4><div class="keyboard">O</div> = Portfolio</h4>
+            <h4><div class="keyboard">A</div> = About</h4>
+            <h4><div class="keyboard">C</div> = Contact</h4>
+            <h4><div class="keyboard">E</div> = Accessibility</h4>
+            <h4><div class="keyboard">L</div> = License</h4>
+
+        <div class="box-shortcut">
+            <h3>Chrome / Opera</h3>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">H</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">B</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">P</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">A</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">C</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Z</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">L</div></h4>
+        </div>
+        <div class="box-shortcut">
+            <h3>Firefox</h3>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">H</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">B</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">P</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">A</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">C</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">Z</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Shift</div> + <div class="keyboard">L</div></h4>
+        </div>
+        <div class="box-shortcut">
+            <h3>IE / Edge</h3>
+            <h5>Note: focused, but required <div class="keyboard">Enter</div> to be pressed in order to access.</h5>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">H</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">B</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">P</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">A</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">C</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">Z</div></h4>
+            <h4><div class="keyboard">Alt</div> + <div class="keyboard">L</div></h4>
+        </div>
+        <div class="box-shortcut">
+            <h3>Safari</h3>
+            <h5>Note: in OS X the same shortcuts are also valid for Chrome, Firefox and Opera.</h5>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">H</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">B</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">P</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">A</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">C</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">Z</div></h4>
+            <h4><div class="keyboard">Ctrl</div> + <div class="keyboard">Option</div> + <div class="keyboard">L</div></h4>
+        </div>
+
+    </section>
+
+    <section class="space bg-gray">
+        
+        <h3>Open Source</h3>
+        <h5>And all is open source</h5>
+        <h4>The code and content of lucasmauess.github.io is available as open source on this <a href="http://github.com/lucasmauess/lucasmauess.github.io">GitHub Repository</a>. Feel free to contribute :)</h4>
+
+    </section>
+
+    <footer>
+    </footer>
+        
+</body>
+
+</html>

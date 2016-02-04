@@ -1,120 +1,235 @@
 <!DOCTYPE html>
-<!-- Code and Design by Lucas Mauess -->
 <html lang="en">
 
-	<head>
-		<!-- Compatibility -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- SEO -->
-		<title>Projects — Lucas Mauess</title>
-		<meta name="description" content="All projects of Lucas Mauess.">
-		<meta name="keywords" content="lucas, mauess, maues, projects, web, developer, design">
-		<meta name="author" content="Lucas Mauess">
-	    <!-- CSS -->
-	    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-	    <link rel="stylesheet" href="styles/images.css" type="text/css"/>
-	    <!-- Favicon -->
-	    <link rel="shortcut icon" href="images/favicon.png">
-	    <!-- Google+ -->
-	    <link rel="publisher" href="https://plus.google.com/u/0/+LucasMauess">
-	</head>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Projects – Lucas Mauess</title>
+	<meta name="description" content="View all projects of Lucas Mauess.">
+	<meta name="keywords" content="lucas mauess, lucas maues, projects">
+	<meta name="author" content="Lucas Mauess">
+
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
     
-	<body>
+<body>
 
-	    <header>
-	    
-	        <figure id="photo-logo"></figure>
-	        <h1><a href="index.html"><span>LUCAS</span> MAUESS</a></h1>
+    <header role="banner">
 
-	        <input type="checkbox" id="control-nav"/>
-	        <label for="control-nav" class="control-nav"></label>
-	        <label for="control-nav" class="control-nav-close"></label>
+        <a href="index.html">
+            <figure></figure>
+            <h1>Lucas <span>Mauess</span></h1>
+        </a>
 
-	        <nav>
-	            <ul class="nav-list">
-	            	<li><a href="index.html" id="hide-1">Home</a></li>
-	            	<li><a href="blog.html">Blog</a></li>
-	                <li><a href="projects.html" class="active-page">Projetcs</a></li>
-	                <li><a href="about.html">About</a></li>
-	                <li><a href="contact.html">Contact</a></li>
-	            </ul>
-				<a href="license.html" id="copyright">LICENSE</a>
-	        </nav>
+        <button id="menu-button"></button>
+        <div class="layer-menu"></div>
 
-	    </header>
+        <nav role="navigation">
+            <button id="close-button"></button>
+            <ul>
+                <li><a href="index.html" accesskey="h" class="hide">Home</a></li>
+                <li><a href="blog.html" accesskey="b">Blog</a></li>
+                <li><a href="projects.html" accesskey="p" class="active">Projects</a></li>
+                <li><a href="services.html" accesskey="s">Services</a></li>
+                <li><a href="work.html" accesskey="w">Work</a></li>
+                <li><a href="contact.html" accesskey="c">Contact</a></li>
+                <li><a href="about.html" accesskey="a">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
 
-	    <section>
-	    	<h2 class="active-page-title simple">Projects</h2>
-	    	<p class="page-description">Creative websites and apps, with responsive design, animation and performance.</p>
-	    </section>
+    <section class="full-screen page-bg img-projects grayscale">
 
-	    <div class="toolbar">
-	    	<a href="#" class="button" title="Send your feedback about the projects"><figure class="button-icon-feedback"></figure>Feedback</a>
-	    </div>
+	    <div class="full-screen-container page">
 
-	    <section class="bg-gray">
+	    	<h2>Projects</h2>
+	    	<p>My projects of websites, webapps and open source projects. Feel free to explore and collaborate.</p>
 
-	    <div class="container-box">
+			<!-- <div class="page-bar">
 
-			<a href="#" class="box-pro inblug">
-				<h2>Blunx</h2> <!-- INBLUG -->
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro favss">
-				<h2>Favss</h2> <!-- Favoritess -->
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			 <a href="#" class="box-pro worlfeed">
-				<h2>WorlFeed</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro vydeon">
-				<h2>Vydeon</h2> <!-- VideoZy -->
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro muzyc">
-				<h2>Muzyc</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro camram">
-				<h2>CamRAM</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro deslike">
-				<h2>DesLike</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro tecscyfi">
-				<h2>Scytec</h2> <!-- Tech SciFi -->
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro appdow">
-				<h2>AppDow</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro gamezun">
-				<h2>GameZun</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro localy">
-				<h2>Localy</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
-			<a href="#" class="box-pro ...">
-				<h2>WebyStart</h2>
-				<h3>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</h3>
-			</a>
+		    	<a href="#" title="Send your feedback about the projects">
+		    		<figure class="icon-feedback"></figure>
+		    		<span>Feedback</span>
+		    	</a>
+
+		    </div> -->
+
+		    <a href="#down" class="down"></a>
 
 		</div>
 
-	    </section>
+   	</section>
 
-	    <footer>
-	        
-	    </footer>
+    <section class="chapter" id="down">
 
-	</body>
+	    <h3>WebSites & WebApps</h3>
+
+		<div class="box-pro img-search">
+			<a href="#" class="blue-color">
+				<figure class="isearch-icon"></figure>
+				<h2>Searchy</h2>
+				<span>A web search facilitator. Quickly search in multiple search engines or find content direct at source with search modules. With total privacy.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-video">
+			<a href="#" class="red-color">
+				<figure class="video-icon"></figure>
+				<h2>Vydeon</h2> <!-- VideoZy -->
+				<span>Coleção com os melhores canais e fontes de streming gratuitos para assitir pela web.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-favoritess">
+			<a href="#" class="yellow-color">
+				<figure class="favoritess-icon"></figure>
+				<h2>Favys</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		 <div class="box-pro img-feed">
+		 	<a href="#" class="orange-color">
+			 	<figure class="worlfeed"></figure>
+				<h2>Flyeed</h2> <!-- WorlFeed -->
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-music">
+			<a href="#" class="pink-color">
+				<figure class="muzyc"></figure>
+				<h2>Muzyc</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-education">
+			<a href="#" class="aqua-color">
+				<figure class="edu-icon"></figure>
+				<h2>EduLynk</h2> <!-- INBLUG Edu -->
+				<span>Diretório que reune os melhores cursos onlines gratuitos em um único lugar.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-apps">
+			<a href="#" class="blue-2-color">
+				<figure class="appdow"></figure>
+				<h2>Appy</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-game">
+			<a href="#" class="green-color">
+				<figure class="gamezun"></figure>
+				<h2>GameZun</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-local">
+			<a href="#" class="pink-2-color">
+				<figure class="localy"></figure>
+				<h2>Localy</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-design">
+			<a href="#" class="purple-color">
+				<figure class="design-icon"></figure>
+				<h2>Desygn</h2>
+				<span>Redesign of popular websites and applications. It's time to view everything in a new perspective.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-camera">
+			<a href="#" class="purple-color">
+				<figure class="camram"></figure>
+				<h2>CamRAM</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+		<div class="box-pro img-science">
+			<a href="#" class="green-2-color">
+				<figure class="icon-science"></figure>
+				<h2>Scyence</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</a>
+		</div>
+
+    </section>
+
+    <section class="chapter">
+
+    	<h3>Startup</h3>
+
+        <div class="box-pro img-inblug">
+    		<a href="#">
+    			<figure class="inblug"></figure>
+				<h2>INBLUG</h2>
+				<span>A startup specializing in design and develop high-end interactive projects of websites and mobile apps.</span>
+			</a>
+		</div>
+
+    </section>
+
+    <section class="chapter">
+
+    	<h3>Open Source</h3>
+
+    	<a href="#" class="box-pro">
+			<div>
+				<figure class=""></figure>
+				<h2>INBLUG Boilerplate</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</div>
+		</a>
+
+    	<a href="#" class="box-pro">
+			<div>
+				<figure class=""></figure>
+				<h2>Web Speech API</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</div>
+		</a>
+
+		<a href="#" class="box-pro">
+			<div>
+				<figure class=""></figure>
+				<h2>Web Notifications API</h2>
+				<span>Lorem ipsum dolor sit amet, eum nostrud offendit in, pri in posse quidam.</span>
+			</div>
+		</a>
+
+    </section>
+
+    <footer>
+    	<p>Copyright &copy; 2016 Lucas Mauess. All rights reserved.</p>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/menu.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60745752-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
 
 </html>
