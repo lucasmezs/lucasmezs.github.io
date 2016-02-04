@@ -313,13 +313,14 @@ article blockquote {
   padding: 40px 0;
   width: 100%;
   background: linear-gradient(to right,rgba(48, 48, 48, 0.6) 0%,rgba(98, 98, 98, 0.4) 100%);
-  background-color: rgba(68, 68, 68, 0.8);
+  background-color: rgba(68, 68, 68, 0.6);
 }
 .page h2 {
   padding: 0 14%;
-  font: 500 64px 'Nova-Bold', 'Roboto-Medium', Arial, sans-serif;
-  color: #fff;
-  letter-spacing: 2px;
+  font: 700 50px 'Nova-Bold', 'Roboto-Medium', Arial, sans-serif;
+  color: #FFF;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 .page h3 {
   font: 700 32px 'Nova-Bold', 'Roboto-Medium', Arial, sans-serif;
@@ -327,13 +328,13 @@ article blockquote {
 }
 .page p {
   max-width: 600px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
   font: 300 24px 'Roboto-Light', Arial, sans-serif;
   text-align: center;
   line-height: 1.5em;
   margin: 0 auto;
-  padding: 24px 32px;
-  letter-spacing: normal;
+  padding: 32px 32px 24px;
+  letter-spacing: 0.24px;
   text-transform: none;
 }
 .page .button {
@@ -349,10 +350,10 @@ article blockquote {
   position: relative;
   display: inline-block;
   height: auto;
-  max-width: 640px;
-  width: 100%;
-  padding: 0;
-  margin: 2% 0 0;
+  max-width: 600px;
+  width: auto;
+  padding: 2%;
+  margin: 0;
   background-color: transparent;
 }
 .page-bar a {
@@ -396,24 +397,24 @@ article blockquote {
   background-size: 32px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(132, 132, 132, 0.6);
   border-radius: 50%;
 }
-.icon-search { background-image: url("../images/search.svg"); }
-.icon-share { background-image: url("../images/share.svg"); }
-.icon-tags { background-image: url("../images/tags.svg"); }
-.icon-feed { background-image: url("../images/feed.svg"); }
-.icon-add { background-image: url("../images/add.svg"); }
-.icon-feedback { background-image: url("../images/feedback.svg"); }
-.icon-mail { background-image: url("../images/mail.svg"); }
-.icon-phone { background-image: url("../images/phone.svg"); }
-.icon-profile { background-image: url("../images/profile.svg"); }
-.icon-code { background-image: url("../images/code.svg"); }
-.icon-layout { background-image: url("../images/layout.svg"); }
-.icon-colors { background-image: url("../images/colors.svg"); }
-.icon-layer { background-image: url("../images/layer.svg"); }
-.icon-presentation { background-image: url("../images/presentation.svg"); }
-.icon-support { background-image: url("../images/support.svg"); }
+.icon-search { background-image: url("../images/ui/search.svg"); }
+.icon-share { background-image: url("../images/ui/share.svg"); }
+.icon-tags { background-image: url("../images/ui/tags.svg"); }
+.icon-feed { background-image: url("../images/ui/feed.svg"); }
+.icon-add { background-image: url("../images/ui/add.svg"); }
+.icon-feedback { background-image: url("../images/ui/feedback.svg"); }
+.icon-mail { background-image: url("../images/ui/mail.svg"); }
+.icon-phone { background-image: url("../images/ui/phone.svg"); }
+.icon-profile { background-image: url("../images/ui/profile.svg"); }
+.icon-code { background-image: url("../images/ui/code.svg"); }
+.icon-layout { background-image: url("../images/ui/layout.svg"); }
+.icon-seo { background-image: url("../images/ui/seo.svg"); }
+.icon-colors { background-image: url("../images/ui/colors.svg"); }
+.icon-presentation { background-image: url("../images/ui/presentation.svg"); }
+.icon-support { background-image: url("../images/ui/support.svg"); }
 
 /* Assistants */
 
@@ -590,7 +591,7 @@ article blockquote {
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(255, 255, 255, 0.1);;
-  background-image: url("../images/down.svg");
+  background-image: url("../images/ui/down.svg");
   border-radius: 50%;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
