@@ -281,7 +281,7 @@ footer {
   position: relative;
   display: inline-block;
   float: left;
-  padding: 32px 4%;
+  padding: 48px 4%;
   width: 92%;
   height: auto;
   background-color: #eee;
@@ -297,7 +297,7 @@ footer a, footer p, footer li {
   font: 400 14px 'Roboto-Regular', Arial, sans-serif;
   color: #888;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 1px;
   line-height: 1.4em;
 }
 footer ul { 
@@ -402,7 +402,7 @@ img {
 
 article {
   position: relative;
-  max-width: 740px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 6% 32px;
   background-color: transparent;
@@ -436,7 +436,7 @@ article ol {
 }
 article ul {
   list-style-type: disc;
-  padding: 18px 32px;
+  padding: 18px 0 18px 32px;
   margin: 0;
 }
 article ul li ul {
@@ -463,21 +463,6 @@ article blockquote {
   line-height: 1.8;
   letter-spacing: 0.24px;
   font-style: italic;
-}
-
-.content {
-  font-family: 'Roboto-Medium', sans-serif;
-  font-size: 20px;
-  line-height: 36px;
-  color: #333;
-  text-align: left;
-  margin: 0 auto 48px;
-  max-width: 700px;
-  padding: 0 20px;
-}
-.content a {
-  border-bottom: 2px solid rgba(0, 0, 0, .2);
-  color: #333;
 }
 
 /* Images */
@@ -514,7 +499,7 @@ article blockquote {
   background-repeat: no-repeat;
 }
 .full-screen-container {
-  padding: 64px 0;
+  padding: 48px 0;
   display: table-cell;
   vertical-align: middle;
   font-size: 0;
@@ -773,7 +758,7 @@ article blockquote {
 .left, .right {
   max-width: 740px;
   margin: 0 auto;
-  padding: 32px;
+  padding: 0 32px;
 }
 
 .left p, .left h2, .left h3, .left h4 { 
@@ -846,7 +831,7 @@ article blockquote {
   height: auto;
   background-color: transparent;
   color: #333;
-  font: 700 16px 'Nova-Bold', Arial, sans-serif;
+  font: 700 14px 'Nova-Bold', Arial, sans-serif;
   border: 3px solid #333;
   border-radius: 0px;
   text-decoration: none;
@@ -1396,9 +1381,9 @@ article blockquote {
   float: none;
   margin: 0 auto;
   max-width: 1040px;
-  width: 100%;
+  width: 98%;
   height: auto;
-  padding: 24px 0;
+  padding: 24px 1%;
 }
 
 .tile-big { max-width: 98%; height: 380px; }
@@ -1697,7 +1682,7 @@ input[type="submit"]:active {
   h1 { font-size: 64px; }
   h2 { font-size: 42px; }
   h3 { font-size: 32px; }
-  p { font-size: 18px; }
+  p, li { font-size: 18px; }
 
   .page {
     padding: 100px 0 40px;
