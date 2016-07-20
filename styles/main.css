@@ -340,7 +340,7 @@ h1 {
   padding: 0 20px;
 }
 h2 {
-  font: 700 58px 'Nova-Bold', 'Roboto-Bold', Arial, sans-serif;
+  font: 700 64px 'Nova-Bold', 'Roboto-Bold', Arial, sans-serif;
   text-align: center;
   max-width: 620px;
   margin: 0 auto;
@@ -365,14 +365,14 @@ p {
   line-height: 1.88em;
   letter-spacing: 0;
   text-align: center;
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 12px 20px;
   text-transform: none;
 }
 li {
   font: 300 20px/1.2rem 'Roboto-Light', Arial, sans-serif;
-  line-height: 1.88em;
+  line-height: 1.8em;
   text-align: left;
 }
 hr {
@@ -418,7 +418,8 @@ article h3 {
 }
 article p {
   text-align: justify;
-  /*font: 400 18px/1.2em 'Roboto-Regular', Arial, sans-serif;*/
+  font: 300 20px/1.2rem 'Roboto-Light', Arial, sans-serif;
+  line-height: 1.8em;
   /*color: rgba(0,0,0,0.7);*/
   padding: 18px 0;
   max-width: 100%;
@@ -534,7 +535,7 @@ article blockquote {
 /* Page */
 
 .page p {
-  max-width: 540px;
+  max-width: 600px;
   line-height: 1.6em;
   padding: 24px;
   letter-spacing: 2px;
@@ -617,7 +618,7 @@ article blockquote {
 .icon-local { background-image: url("../images/ui/local.svg"); }
 .icon-code { background-image: url("../images/ui/code.svg"); }
 .icon-layout { background-image: url("../images/ui/layout.svg"); }
-.icon-seo { background-image: url("../images/ui/seo.svg"); }
+.icon-marketing { background-image: url("../images/ui/seo.svg"); }
 .icon-colors { background-image: url("../images/ui/colors.svg"); }
 .icon-presentation { background-image: url("../images/ui/presentation.svg"); }
 .icon-support { background-image: url("../images/ui/support.svg"); }
@@ -645,9 +646,9 @@ article blockquote {
   position: relative;
   float: none;
   display: inline-block;
-  padding: 18px 4px;
+  padding: 12px 4px;
   margin: 0;
-  height: 180px;
+  height: 160px;
   width: 240px;
   background-color: transparent;
 }
@@ -661,16 +662,15 @@ article blockquote {
   background-color: transparent;
 }
 .card h3 {
-  font-size: 24px;
-  max-width: 200px;
+  font-size: 22px;
+  max-width: 180px;
   padding: 12px 0;
 }
 .card figure {
   margin: 0 auto;
-  width: 74px;
-  height: 74px;
+  width: 64px;
+  height: 64px;
   background-size: 40px;
-  border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -859,7 +859,7 @@ article blockquote {
   height: auto;
   background-color: transparent;
   color: #333;
-  font: 700 14px 'Nova-Bold', Arial, sans-serif;
+  font: 700 16px 'Nova-Bold', Arial, sans-serif;
   border: 3px solid #333;
   border-radius: 0px;
   text-decoration: none;
@@ -938,12 +938,12 @@ article blockquote {
 
 ::selection {
   color: #fff;
-  background: #00b294;
+  background: #333;
   text-shadow: none;
 }
 ::-moz-selection {
   color: #fff;
-  background: #00b294;
+  background: #333;
   text-shadow: none;
 }
 
@@ -1115,9 +1115,8 @@ article blockquote {
   bottom: 0;
   left: 0;*/
   float: left;
-  text-align: center;
-  padding: 18px 10%;
-  font: 28px 700 'Nova-Bold', Arial, sans-serif;
+  text-align: left;
+  padding: 32px 10% 24px;
   color: transparent;
   max-width: 480px;
   width: 80%;
@@ -1126,11 +1125,11 @@ article blockquote {
 }
 .tile p {
   float: left;
-  text-align: center;
+  text-align: left;
   color: transparent;
-  font-size: 14px;
-  letter-spacing: 2px;
-  padding: 32px 10% 0;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding: 0 10%;
   width: 80%;
   transition: all 0.25s ease-in-out;
 }
@@ -1482,7 +1481,7 @@ input[type="submit"] {
   border: 3px solid #333;
   border-radius: 0;
   color: #333;
-  font: 700 14px 'Nova-Bold', Arial, sans-serif;
+  font: 700 16px 'Nova-Bold', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.25s ease-in-out;
