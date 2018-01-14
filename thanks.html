@@ -3,72 +3,75 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Thanks – Lucas Mauess</title>
-
-    <meta http-equiv="refresh" content="24; url=index.html"/>
+    <title>Thanks – Lucas Mauess</title>
 
     <link rel="canonical" href="https://lucasmauess.com/thanks">
 
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/header.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta name="theme-color" content="#141414">
-
-    <script src="scripts/headroom.js" type="text/javascript"></script>
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60745752-1"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-60745752-1', 'auto');
-      ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-60745752-1');
     </script>
 </head>
-    
-<body>
 
-    <header role="banner" id="header">
+<body class="info-page">
 
-        <a href="index.html" id="logo">Lucas Mauess</a>
-        <button id="menu" onclick="openMenu();"></button>
+    <header role="banner">
 
-        <div class="layer-menu" onclick="closeMenu();"></div>
+        <a id="logo" href="index.html">Lucas Mauess</a>
+        <button id="menu" role="button" aria-label="open navigation menu" accesskey="5">Menu</button>
 
         <nav role="navigation">
-            <button id="close" onclick="closeMenu();"></button>
+            <button id="close" role="button" aria-label="close navigation menu" accesskey="6">Close</button>
             <ul>
-                <li><a href="about.html" class="underline-left">About</a></li>
-                <li><a href="projects.html" class="underline-left">Projects</a></li>
-                <li><a href="services.html" class="underline-left">Services</a></li>
-                <li><a href="blog.html" class="underline-left">Blog</a></li>
-                <li><a href="contact.html" class="underline-left">Contact</a></li>
+                <li><a href="index.html#about" accesskey="1">About</a></li>
+                <li><a href="index.html#projects" accesskey="2">Projects</a></li>
+                <li><a href="index.html#services" accesskey="3">Services</a></li>
+                <li><a href="index.html#contact" accesskey="4">Contact</a></li>
+                <li><a href="index.html#blog" accesskey="5">Blog</a></li>
             </ul>
         </nav>
-        
+
     </header>
+    
+    <section class="full-screen">
 
-    <section class="full-screen page page-thanks img-thanks">
+        <div class="gif" id="background"></div>
 
-        <div class="screen-container layer">
+            <div class="screen-container">
 
-            <h1>Message sent successfully.</h1>
+                <div class="left info-page">
 
-            <p>Thanks! Your message was sent successfully. Within 36 hours you will receive a reply. Redirecting in <span id="countdown"></span>...</p>
+                    <h1><strong>Thanks!</strong><br> Stay happy</h1>
+                    <p>Your message was sent successfully. I'll answer soon as possible in the next 48 hours.</p>
 
-            <a href="index.html" class="button bounce">Back to homepage</a>
+                    <a href="index.html" class="button bounce">Back to homepage</a>
 
-        </div>
+                </div>
+
+            </div>
 
     </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="scripts/functions.js"></script>
-<script src="scripts/pace.js"></script>
-<script src="scripts/countdown.js"></script>
+    <footer role="contentinfo">
+        <p>&copy; 2018 Lucas Mauess. <a href="legal.html">Legal</a></p>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
+<script src="scripts/main.js"></script>
+<script>
+ var images = ['https://media1.tenor.com/images/e67b1f68b3daa0078eb8a580a0a5efbd/tenor.gif', 'https://media1.tenor.com/images/c3789dc6cb40fc7dcabf993ed939d72f/tenor.gif', 'https://media1.tenor.com/images/d1a1df7d256968216e1d11de3fe4905f/tenor.gif', 'https://media1.tenor.com/images/cf4cc7db45b131d3a0b2bd9db4f72dae/tenor.gif'];
+ $('#background').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+</script>
 
 </body>
 

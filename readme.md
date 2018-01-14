@@ -1,14 +1,10 @@
-# [lucasmauess.com](http://lucasmauess.com/)
+# [lucasmauess.com](https://lucasmauess.com/)
 
-My personal website.
-
-## Purpose
-
-A personal page that gather information about me, with links to my social network profiles, space to share my articles, show my projects and my work, as well, simple ways to contact me for hire my services.
+My personal website, like a Progresive Web App (PWA).
 
 ## Licenses
 
-Copyright © 2017 Lucas Mauess.
+© 2018 Lucas Mauess. 
 
-* All creative content is under [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-* All source code is under [MIT License](http://mit-license.org/).
+* Content is under [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+* Code is under [MIT](https://mit-license.org/).
