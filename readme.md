@@ -1,6 +1,6 @@
 # [lucasmauess.com](https://lucasmauess.com/)
 
-My personal website, like a Progresive Web App (PWA).
+My personal website, like a Progressive Web App (PWA).
 
 ## Licenses
 
