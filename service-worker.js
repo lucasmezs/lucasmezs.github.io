@@ -1,4 +1,4 @@
-var CACHE_NAME = 'lucasmauess-v1';
+var CACHE_NAME = 'lucasmaues-cache';
 var urlsToCache = [
   'index.html',
   'styles/main.css',
@@ -6,7 +6,7 @@ var urlsToCache = [
   '404.html',
   'thanks.html',
   'legal.html',
-  'images/lucas-mauess.jpg'
+  'images/lucas-maues-profile.jpg'
 ];
 
 self.addEventListener('install', function(event) {
