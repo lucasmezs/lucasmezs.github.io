@@ -6,7 +6,7 @@ var urlsToCache = [
   '404.html',
   'thanks.html',
   'legal.html',
-  'images/lucas-maues-profile.jpg'
+  'images/lucas-maues.jpg'
 ];
 
 self.addEventListener('install', function(event) {

@@ -272,13 +272,16 @@ article {
   padding: 10rem 2rem 4rem;
 }
 article p {
+  text-align: left;
   padding: 0 0 1.5rem 0;
   max-width: 100%;
 }
 article h1 {
+  text-align: left;
   padding: 2rem 0;
 }
 article h2 {
+  text-align: left;
   padding: 3rem 0 2rem;
 }
 article ol {
@@ -310,24 +313,6 @@ article blockquote {
   line-height: 1.8;
   letter-spacing: 0.24px;
   font-style: italic;
-}
-
-/* Footer */
-
-footer {
-  display: inline-block;
-  float: none;
-  margin: 0 auto;
-  padding: 2rem;
-  width: 100%;
-  max-width: 1100px;
-  text-align: center;
-  box-sizing: border-box;
-}
-footer p {
-  float: right;
-  font-size: 1.15rem;
-  padding: 0;
 }
 
 /* layer */
@@ -386,15 +371,16 @@ footer p {
 .page p { max-width: 700px; }
 .page h2 { font-weight: 400; max-width: 620px; }
 
-#photo {
+#photo, .gif {
+  position: absolute;
+  top: 0;
+  right: 0;
   background-image: url('../images/lucas-maues-profile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #eee;
   width: 50%;
   height: 100%;
-  right: 0;
-  position: absolute;
   z-index: -999;
 }
 .title {
@@ -405,9 +391,6 @@ footer p {
   line-height: 1;
   margin: 0 0 2rem;
   max-width: 650px;
-}
-.title hr {
-  margin: 2rem 0;
 }
 .title p {
   font-size: 2.8rem;
@@ -424,7 +407,7 @@ footer p {
 .text p:first-child {
   font-size: 3rem;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.4;
   padding: 0 0 3rem;
   font-style: italic;
 }
@@ -591,7 +574,7 @@ footer p {
   padding: 0;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-size: 45px;
+  background-size: 40px;
   background-position: 0 center;
   font-size: 0;
 }
@@ -1056,6 +1039,24 @@ form input[type="submit"]:active {
 .flipboard { background-image: url("../images/social/flipboard.svg"); }
 .ello { background-image: url("../images/social/ello.svg"); }
 
+/* Footer */
+
+footer {
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+footer p {
+  float: right;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
 .info-page .left {
   width: 100%;
   margin-bottom: -2rem
@@ -1068,28 +1069,9 @@ form input[type="submit"]:active {
   padding: 2.5rem 0;
   max-width: 650px;
 }
-.info-page footer {
-  position: fixed;
-  max-width: 100%;
-  bottom: 0;
-  left: 0;
-}
-.info-page footer p {
-  text-align: right;
-  max-width: 100%;
-  padding: 0;
-}
 
 .gif {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #eee;
-  width: 50%;
-  height: 100%;
-  right: 0;
-  position: absolute;
   opacity: .8;
-  z-index: -999;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -1118,14 +1100,12 @@ form input[type="submit"]:active {
     width: 100%;
   }
   #photo, .gif {
-    width: 400px;
-    height: 400px;
+    position: relative;
     right: 0;
     left: 0;
-    margin: auto;
-  }
-  .title {
-    margin-top: 15rem;
+    margin: -1rem auto 0;
+    width: 400px;
+    height: 400px;
   }
   .contact, form {
     width: 100%;
@@ -1180,27 +1160,24 @@ form input[type="submit"]:active {
     float: none;
     width: 100%;
   }
+  footer p {
+    float: none;
+  }
 }
 
 @media screen and (max-width: 750px) {
 
   #photo, .gif {
-    width: 320px;
-    height: 320px;
-  }
-  .title hr {
-    margin: 1.75rem 0;
-  }
-  .title {
-    margin-top: 12rem;
+    width: 300px;
+    height: 300px;
   }
   .left {
     padding: 1rem;
   }
   .icons a {
-    width: 80px;
-    height: 80px;
-    background-size: 36px;
+    width: 76px;
+    height: 76px;
+    background-size: 34px;
   }
   header {
     padding: 1rem;
@@ -1220,7 +1197,7 @@ form input[type="submit"]:active {
     font-size: 4rem; 
   }
   h2, article h1, .info-page h1 { 
-    font-size: 3.25rem; 
+    font-size: 3.2rem; 
   }
   h3, nav a, .title p {
     font-size: 2rem;
