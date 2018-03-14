@@ -80,6 +80,7 @@ nav ul {
   text-align: center;
   padding: 0 2rem;
   box-sizing: border-box;
+  font-size: 0;
 }
 nav ul li {
   float: left;
@@ -88,9 +89,11 @@ nav ul li {
 nav a {
   color: #fff;
   display: block;
-  padding: 1rem .5rem;
+  padding: 1rem;
   font-weight: 600;
   font-size: 3rem;
+  margin: 1rem;
+  line-height: 1.06;
 }
 nav a:hover, nav a:focus {
   opacity: .6;
@@ -98,7 +101,7 @@ nav a:hover, nav a:focus {
 nav ul li:last-child a:after {
   content: '';
   position: absolute;
-  margin: 1rem;
+  margin: .2rem .6rem;
   height: 26px;
   width: 26px;
   background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cline%20x1%3D%227%22%20y1%3D%2217%22%20x2%3D%2217%22%20y2%3D%227%22%3E%3C%2Fline%3E%3Cpolyline%20points%3D%227%207%2017%207%2017%2017%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E');
@@ -111,7 +114,7 @@ nav ul li:last-child a:after {
   float: left;
   margin: -.35rem 0 0;
   padding: 0;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 700;
   max-width: 170px;
   text-align: left;
@@ -234,10 +237,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 6.4rem;
 }
-h2, article h1 {
-  font-size: 4.2rem;
+h2 {
+  font-size: 4rem;
 }
-h3, article h2 {
+h3 {
   font-size: 2.2rem;
 }
 h4 {
@@ -270,10 +273,12 @@ article p {
   max-width: 100%;
 }
 article h1 {
+  font-size: 3.2rem;
   text-align: left;
   padding: 2rem 0;
 }
 article h2 {
+  font-size: 1.8rem;
   text-align: left;
   padding: 3rem 0 2rem;
 }
@@ -322,7 +327,6 @@ article blockquote {
 .layer a {
   opacity: 1;
 }
-
 .layer .button {
   color: #fff;
   border-color: #fff;
@@ -336,7 +340,7 @@ article blockquote {
   background-color: #fff
 }
 
-/* left helper container */
+/* helpers */
 
 .left {
   display: inline-block;
@@ -357,10 +361,7 @@ article blockquote {
 }
 .left .button {
   float: left;
-
 }
-
-/* pages helpers */
 
 .page p { max-width: 700px; }
 .page h2 { font-weight: 400; max-width: 620px; }
@@ -406,7 +407,7 @@ article blockquote {
   color: #000;
 }
 
-/* start animations */
+/* start page animations */
 
 .delay-one {
   -webkit-animation-delay: .5s;
@@ -552,7 +553,7 @@ article blockquote {
   }
 }
 
-/* icons */
+/* social icons */
 
 .icons {
   float: left;
@@ -745,8 +746,9 @@ article blockquote {
   margin: 0 auto;
   padding: 0;
   color: #fff;
-  padding: 0 0 2.4rem;
+  padding: 0 0 1.8rem;
   line-height: 1;
+  text-align: left;
 }
 .tile a:hover h3, .tile a:focus h3 {
   display: block;
@@ -1086,11 +1088,12 @@ footer p {
     display: inline-block;
   }
   nav a {
-    padding: .5rem;
+    padding: 0;
+    margin: 1.6rem 1.6rem 1.6rem 0;
   }
   nav ul li {
-    float: none;
-    width: 100%;
+    float: left;
+    text-align: left;
   }
   #photo, .gif {
     position: relative;
@@ -1105,14 +1108,6 @@ footer p {
   }
   .box a {
     width: 48%
-  }
-  .icons {
-    float: none;
-    display: inline-block;
-  }
-  .icons a {
-    float: none;
-    background-position: center;
   }
   .page h2 {
     margin: 0 auto;
@@ -1144,6 +1139,10 @@ footer p {
     float: none;
     margin: 0 auto;
   }
+  .text p, .tile p {
+    text-align: left;
+    max-width: 100%;
+  }
   .tile,
   .tile:nth-child(2),
   .tile:nth-child(4),
@@ -1167,20 +1166,29 @@ footer p {
 
 @media screen and (max-width: 750px) {
 
+  nav ul li {
+    width: 50%;
+  }
   .screen-container {
     padding: 4rem 0;
+  }
+  .left {
+    padding: 1rem 1.4rem;
   }
   #photo, .gif {
     width: 300px;
     height: 300px;
   }
-  .left {
-    padding: 1rem;
+  .icons {
+    float: none;
+    display: inline-block;
   }
   .icons a {
-    width: 76px;
-    height: 76px;
-    background-size: 34px;
+    float: none;
+    background-position: center;
+    width: 74px;
+    height: 74px;
+    background-size: 32px;
   }
   header {
     padding: 1rem;
@@ -1193,25 +1201,25 @@ footer p {
   }
   #logo {
     padding: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h1 { 
     font-size: 4rem; 
   }
   h2, article h1, .info-page h1 { 
-    font-size: 3.2rem; 
+    font-size: 2.8rem; 
   }
   h3, nav a, .title p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .text p, .tile p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .text p:first-child {
     font-size: 2rem;
   }
   .tile {
-    height: 380px;
+    height: 320px;
   }
   .card a {
     margin-top: 5rem;
