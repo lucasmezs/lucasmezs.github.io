@@ -5,10 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thanks – Lucas Maués</title>
+    <title>Thanks | Lucas Maués</title>
 
-    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-    <link rel="shortcut icon" href="favicon.ico">
+	<link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="icon" sizes="192x192" type="image/png" href="images/icons/icon-192x192.png">
+	<meta name="theme-color" content="#000">
+    <meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Lucas Maués">
+	<link rel="manifest" href="manifest.json">
 
     <script async src="//www.googletagmanager.com/gtag/js?id=UA-60745752-1"></script>
     <script>
@@ -22,49 +26,57 @@
 
 <body>
 
-    <header role="banner">
-        <div>
-            <a id="logo" href="/">Lucas Maués</a>
-            <button id="menu" role="button" aria-label="open navigation menu" accesskey="1">Menu</button>
+	<header>
+		<div class="container">
+	
+			<a id="logo" href="/" aria-label="home" accesskey="1">Lucas Maués</a>
+			
+			<button class="menu" type="button">Menu<div class="hamburger"></div></button>
 
-            <nav role="navigation">
-                <button id="close" role="button" aria-label="close navigation menu" accesskey="2">Close</button>
-                <ul>
-                    <li><a href="/#about" accesskey="1">About</a></li>
-                    <li><a href="/#services" accesskey="2">Services</a></li>
-                    <li><a href="/#work" accesskey="3">Work</a></li>
-                    <li><a href="/#contact" accesskey="4">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+			<nav>
+				<ul>
+                    <li><a href="work" accesskey="2">Work</a></li>
+					<li><a href="about" accesskey="3">About</a></li>
+					<li><a href="contact" accesskey="4">Contact</a></li>
+					<li><a href="https://medium.com/@lucasmaues" target="_blank" rel="noopener">Blog</a></li>
+				</ul>
+			</nav>
+			<div class="layer"></div>
+		
+		</div>
+	</header>
+
+
+    <main>
     
-    <section class="full-screen">
+    <section class="fullscreen">
+        <div class="fullscreen-container">
 
-        <div class="screen-container info-page">
-
-            <div class="left">
+            <div class="container page">
 
                 <figure class="gif" id="background"></figure>
+
                 <h1>Thanks!</h1>
-                <p>Your message was sent successfully. I will answer in next 48 hours.</p>
-                <a href="/" class="button bounce">Back to homepage</a>
+
+                <p>Your message has been sent successfully. I will respond as soon as possible.</p>
+                <a href="/" class="button">Go to homepage ➔</a>
 
             </div>
 
         </div>
-
     </section>
 
-    <footer role="contentinfo">
-        <p>&copy; 2018 Lucas Maués. <a href="legal">Legal</a></p>
+    <footer>
+        <div class="container">
+            <p>&copy; <script>document.write(new Date().getFullYear());</script> Lucas Maués. <a href="privacy" accesskey="5">Privacy</a></p>
+        </div>
     </footer>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
 <script src="scripts/main.js"></script>
 <script>
- var images = ['//media1.tenor.com/images/de5a81aa8a3ef29a500f569fc540f80f/tenor.gif', '//media1.tenor.com/images/d076ed43f9ce9e26d71dcb74a7bd898f/tenor.gif', '//media1.tenor.com/images/cf4cc7db45b131d3a0b2bd9db4f72dae/tenor.gif'];
+ var images = ['//media1.tenor.com/images/de5a81aa8a3ef29a500f569fc540f80f/tenor.gif', '//media1.tenor.com/images/4525620a4e87c14081aa84b70e410034/tenor.gif', '//media1.tenor.com/images/d076ed43f9ce9e26d71dcb74a7bd898f/tenor.gif', '//media1.tenor.com/images/cf4cc7db45b131d3a0b2bd9db4f72dae/tenor.gif'];
  $('#background').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
 </script>
 

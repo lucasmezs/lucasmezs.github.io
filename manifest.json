@@ -1,7 +1,7 @@
 {
-  "name": "Lucas Maués - Web Developer & Designer",
+  "name": "Lucas Maués | Front-end Developer & Designer",
   "short_name": "Lucas Maués",
-  "description": "Building immersive Web experiences to empower people and brands.",
+  "description": "Building Web experiences for humans.",
   "icons": [
     {
       "src": "images/icons/icon-48x48.png",
@@ -33,8 +33,8 @@
       "type": "image/png"  
     }
   ],
-  "start_url": "index.html?utm_source=homescreen",
+  "start_url": "index.html?utm_source=pwa",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000"
+  "background_color": "#fff",
+  "theme_color": "#000"
 }

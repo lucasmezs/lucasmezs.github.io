@@ -1,14 +1,12 @@
 # [lucasmaues.com](https://lucasmaues.com/)
 
-## Purpose
+## Portfolio
 
-My personal website, for show my portfolio. Now is a PWA that work offline o/
+My personal website, to showcase my portfolio — also works offline \o/
 
-## Legal
+## Licences
 
-For strengthen individuals freedom, advance in the development of an equitable ecosystem and encourage the creation of a thriving commons through sharing knowledge:
-
-* Content is under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/);
-* Code is under [MIT License](https://mit-license.org/);
+* Content is under [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+* Code is under [MIT License](https://mit-license.org/)
 
 © 2018 Lucas Maués.

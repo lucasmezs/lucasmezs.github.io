@@ -1,28 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://lucasmaues.com/</loc>
-	<lastmod>2018-01-18</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://lucasmaues.com/legal</loc>
-	<lastmod>2018-01-18</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://lucasmaues.com/thanks</loc>
-	<lastmod>2018-01-18</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.0</priority>
-</url>
-<url>
-	<loc>https://lucasmaues.com/404</loc>
-	<lastmod>2018-01-18</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.0</priority>
-</url>
+	<url>
+		<loc>https://lucasmaues.com/</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/work</loc>
+		<lastmod>2018-01-XX</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/about</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/contact</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/privacy</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/thanks</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.0</priority>
+	</url>
+	<url>
+		<loc>https://lucasmaues.com/404</loc>
+		<lastmod>2018-11-XX</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.0</priority>
+	</url>
 </urlset>
- 
