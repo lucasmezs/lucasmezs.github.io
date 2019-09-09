@@ -608,6 +608,7 @@ input, textarea {
   line-height: 1.5;
   outline: none;
   border: none;
+  border-radius: 0;
   border-bottom: 3px solid #000;
   background: transparent;
   -webkit-appearance: none;
