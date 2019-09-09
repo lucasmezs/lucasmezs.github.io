@@ -9,7 +9,7 @@ const PRECACHE_URLS = [
   'privacy.html',
   'styles/main.css',
   'scripts/main.js',
-  'images/lucas-maues.jpg'
+  'images/lucas-menezes-profile.jpg'
 ];
 
 // The install handler takes care of precaching the resources we always need.
