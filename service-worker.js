@@ -1,4 +1,4 @@
-var CACHE_NAME = 'lucasmdev-v1';
+var CACHE_NAME = 'lucasmdev-v2';
 var urlsToCache = [
   'index.html',
   'styles/main.css',
