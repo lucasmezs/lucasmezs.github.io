@@ -6,21 +6,6 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://lucasm.dev/work</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://lucasm.dev/about</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://lucasm.dev/contact</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://lucasm.dev/privacy</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.0</priority>

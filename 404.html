@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>404 — Lucas Menezes</title>
+    <title>Page not found — Lucas Menezes</title>
 
-	<link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="dns-prefetch" href="https://media1.tenor.com/">
+
+	<link href="src/main.css" rel="stylesheet" type="text/css">
     <link rel="icon" sizes="192x192" type="image/png" href="images/icons/icon-192x192.png">
 	<meta name="theme-color" content="#000">
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,8 +30,8 @@
 	<header>
 		<div class="container">
 	
-			<a id="logo" href="/.." aria-label="home" accesskey="1">Lucasm.dev</a>
-			<button class="menu" type="button">Menu<div class="hamburger"></div></button>
+			<a id="logo" href="/.." aria-label="homepage" accesskey="1">Lucasm.dev</a>
+			<button id="menu" type="button">Menu<div class="hamburger"></div></button>
 			<nav>
 				<ul>
 					<li><a href="/#work" accesskey="2">Work</a></li>
@@ -52,7 +54,7 @@
 
                     <figure class="gif" id="background"></figure>
 
-                    <h1>Error 404</h1>
+                    <h1>Page not found (404)</h1>
                     <p>The page you’re looking for can’t be found.</p>
                     <a href="/" class="button">Back to homepage</a>
 
@@ -65,21 +67,25 @@
 
     <footer>
         <div class="container">
-			<p><a href="/" accesskey="5">Lucasm.dev</a> <br> &copy; <span id="year"></span> Lucas Menezes</p>
+			<p><a href="/" accesskey="5">Lucasm.dev</a> <br> &copy; <span id="year"></span> Lucas Menezes. All rights reserved.</p>
         </div>
     </footer>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
-<script src="scripts/main.js"></script>
+<script src="//cdn.jsdelivr.net/npm/headroom.js@0.11.0/dist/headroom.min.js"></script>
+<script src="src/main.js"></script>
 <script>
     var gifs = [
+        '//media1.tenor.com/images/b587f0acb4cbb3a078c3ac03618b7eb8/tenor.gif',
         '//media1.tenor.com/images/ed32319213bb232b3e9fb85cf06739d9/tenor.gif',
         '//media1.tenor.com/images/9f722203b3a72c96e42bc1ce3e6f01a4/tenor.gif',
         '//media1.tenor.com/images/692b38ecf6d595c92c961415620c2ba8/tenor.gif',
-        '//media1.tenor.com/images/026d82064fe5cfaa6d07b7b4e621b5ff/tenor.gif'
+        '//media1.tenor.com/images/026d82064fe5cfaa6d07b7b4e621b5ff/tenor.gif',
+        '//media1.tenor.com/images/21a84ef7d7929647f27611aeea7fe3f2/tenor.gif',
+        '//media1.tenor.com/images/76ead955ebf9ba7410a8527d8e36b296/tenor.gif',
+        '//media1.tenor.com/images/14a99498f4f78c7dda662940ee26e9f7/tenor.gif'
+        
     ];
-    $('#background').css({'background-image': 'url(' + gifs[Math.floor(Math.random() * gifs.length)] + ')'});
+    document.getElementById("background").style.backgroundImage = 'url(' + gifs[Math.floor(Math.random() * gifs.length)] + ')';
 </script>
 
 </body>

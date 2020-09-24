@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thanks — Lucas Menezes</title>
+    <title>Thank you — Lucas Menezes</title>
 
-	<link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="dns-prefetch" href="https://media1.tenor.com/">
+
+	<link href="src/main.css" rel="stylesheet" type="text/css">
     <link rel="icon" sizes="192x192" type="image/png" href="images/icons/icon-192x192.png">
 	<meta name="theme-color" content="#000">
     <meta name="mobile-web-app-capable" content="yes">
@@ -29,8 +31,8 @@
 	<header>
 		<div class="container">
 	
-			<a id="logo" href="/.." aria-label="home" accesskey="1">Lucasm.dev</a>
-			<button class="menu" type="button">Menu<div class="hamburger"></div></button>
+			<a id="logo" href="/.." aria-label="homepage" accesskey="1">Lucasm.dev</a>
+			<button id="menu" type="button">Menu<div class="hamburger"></div></button>
 			<nav>
 				<ul>
 					<li><a href="/#work" accesskey="2">Work</a></li>
@@ -54,8 +56,8 @@
 
                 <figure class="gif" id="background"></figure>
 
-                <h1>Thanks :)</h1>
-                <p>Your message has been sent successfully.</p>
+                <h1>Thank you!</h1>
+                <p>Your message was sent successfully.</p>
                 <a href="/" class="button">Back to homepage</a>
 
             </div>
@@ -65,21 +67,23 @@
 
     <footer>
         <div class="container">
-			<p><a href="/" accesskey="5">Lucasm.dev</a> <br> &copy; <span id="year"></span> Lucas Menezes</p>
+			<p><a href="/" accesskey="5">Lucasm.dev</a> <br> &copy; <span id="year"></span> Lucas Menezes. All rights reserved.</p>
         </div>
     </footer>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
-<script src="scripts/main.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/headroom.js@0.11.0/dist/headroom.min.js"></script>
+<script src="src/main.js"></script>
 <script>
     var gifs = [
         '//media1.tenor.com/images/de5a81aa8a3ef29a500f569fc540f80f/tenor.gif',
         '//media1.tenor.com/images/4525620a4e87c14081aa84b70e410034/tenor.gif',
         '//media1.tenor.com/images/d076ed43f9ce9e26d71dcb74a7bd898f/tenor.gif',
-        '//media1.tenor.com/images/cf4cc7db45b131d3a0b2bd9db4f72dae/tenor.gif'
+        '//media1.tenor.com/images/cf4cc7db45b131d3a0b2bd9db4f72dae/tenor.gif',
+        '//media1.tenor.com/images/c4ee471d243b0484a9bfb0d90021de43/tenor.gif',
+        '//media1.tenor.com/images/ba516509538b217590048125652d87f3/tenor.gif'
     ];
-    $('#background').css({'background-image': 'url(' + gifs[Math.floor(Math.random() * gifs.length)] + ')'});
+    document.getElementById("background").style.backgroundImage = 'url(' + gifs[Math.floor(Math.random() * gifs.length)] + ')';
 </script>
 
 </body>
