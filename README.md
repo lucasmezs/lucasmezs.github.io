@@ -1,7 +1,7 @@
-# [Lucasm.dev](https://lucasm.dev/)
+# [Lucas Menezes](https://lucasm.dev/)
 
-Portfolio to show Lucas Menezes projects as a Software Engineer.
+My personal website.
 
 ### Licences
-* Source code is under [MIT License](https://mit-license.org/)
+* Source code is under [MIT License](https://github.com/lucasmezs/lucasmezs.github.io/blob/main/LICENSE.txt)
 * Content is under [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
