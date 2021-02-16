@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --header-size: 64px;
+  --header-size: 56px;
   --cor-preto: #111;
   --cor-cinza: #f1f1f1;
   --radius: 6px;
@@ -41,20 +41,19 @@ header .container {
 #logo {
   float: left;
   padding: 1rem;
-  width: 64px;
-  height: 64px;
+  width: var(--header-size);
+  height: var(--header-size);
   font-size: 0;
   line-height: 0;
   background: #fff;
   border-radius: 50%;
-  border: 3px solid transparent;
   z-index: 4;
 }
 #menu {
   position: relative;
   float: right;
   z-index: 9;
-  padding-left: 1.25rem;
+  padding-left: 1rem;
   width: var(--header-size);
   height: var(--header-size);
   outline: none;
@@ -157,7 +156,7 @@ nav li {
 nav a {
   position: relative;
   display: inline-block;
-  margin: .5rem 0;
+  margin: 1rem 0;
   color: var(--cor-preto);
 }
 
@@ -244,8 +243,8 @@ p, li, .button, input, textarea {
   font-size: 1rem;
 }
 .special {
-  max-width: 800px;
-  margin-top: 2rem;
+  max-width: 760px;
+  padding: 2rem 1rem 0;
 }
 .special h1 {
   padding: 1rem 0 3rem;
