@@ -178,7 +178,7 @@ export default function Home() {
         <section class="black">
             <div class="container special-contact">
 
-                <h2>Say hi  — <a href="mailto:hi@lucasm.dev">hi@lucasm.dev</a></h2>
+                <h2>Let’s talk  — <a href="mailto:hi@lucasm.dev">hi@lucasm.dev</a></h2>
 
             </div>
         </section>
