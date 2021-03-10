@@ -62,7 +62,7 @@ export default function Home() {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path className="svg" d="M157.9,47.37l4.67-42.1H17.74L.2,163.15c-1.94,17.44,10.63,31.58,28.07,31.58h134.3c11.63,0,22.1-9.42,23.39-21L200,47.37ZM116.28,141.8H95.17V111.22H65V141.8H43.74V59.21H65V91.09H95.17V59.21h21.11Zm49.8,21.35a12.06,12.06,0,0,1-11.69,10.53A9.24,9.24,0,0,1,145,163.15l10.53-94.73h21.05Z"/></svg>
                             </figure>
                             <h3>Headly</h3>
-                            <p>Internationalizated news reader app with headlines, opnions and fact-checking.</p>
+                            <p>News reader app with headlines, fact-checking and opnions, internationalized.</p>
                         </a>
 
                         <a href="#" className="card">
@@ -160,14 +160,14 @@ export default function Home() {
 
                 <div className="col">
                     <div className="col-left">
-                        <p>I’ve been developing Web applications, websites and APIs for startups and organizations of all sizes, helping them to solve problems and establish their digital presence.</p>
+                        <p>I’ve been developing Web applications, websites and APIs for startups and organizations of all sizes, helping them to solve problems and establish their online presence.</p>
 
-                        <p>I build digital products with focus on refined front-end (user experience, responsive design, progressive enhancement, accessibility and performance) and adjacent back-end.</p>
+                        <p>I build refined digital products with focus on front-end (user experience, responsive design, progressive enhancement, accessibility and performance) and adjacent back-end.</p>
                     </div>
                     <div className="col-right">
                         <p>HTML, CSS, JavaScript, React, Next.js, Node.js, PHP, Git, REST APIs, MySQL, PostgreSQL, Vercel, AWS and Microsoft Azure are my current main work tools.</p>
 
-                        <p>Now I’m working at TCM-PA and making open source PWAs. Feel free to contact me to discuss your project or idea.</p>
+                        <p>Now I’m working at TCM-PA and creating open source PWAs. Feel free to contact me to discuss your project or idea.</p>
                     </div>
                     
                 </div>
