@@ -156,7 +156,7 @@ export default function Home() {
         <section id="contact" className="gray">
             <div className="container left special">
 
-                <h1>Building Web applications, sites and APIs.</h1>
+                <h1>I build Web applications, sites and APIs.</h1>
 
                 <div className="col">
                     <div className="col-left">
@@ -178,7 +178,7 @@ export default function Home() {
         <section className="black">
             <div className="container special-contact">
 
-                <h2>Say hi — <a href="mailto:hello@lucasm.dev">hello@lucasm.dev</a></h2>
+                <h2>Say hi — <a href="mailto:hey@lucasm.dev">hey@lucasm.dev</a></h2>
 
             </div>
         </section>
